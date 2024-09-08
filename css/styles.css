@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, white, pink);
+    position: relative;
+}
+
+/* 背景气泡样式 */
+.bubble {
+    position: absolute;
+    background-color: rgba(255, 182, 193, 0.6);
+    border-radius: 50%;
+}
+
+.top-bubble {
+    width: 50vw;
+    height: 50vw;
+    top: -25vw;
+    left: -25vw;
+}
+
+.bottom-bubble {
+    width: 40vw;
+    height: 40vw;
+    bottom: -20vw;
+    left: 10vw;
+}
+
+/* 轮盘样式 */
+.wheel-container {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 35vw;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow-y: scroll; /* 启用垂直滚动 */
+    scrollbar-width: none; /* Firefox 隐藏滚动条 */
+}
+
+.wheel-container::-webkit-scrollbar {
+    display: none; /* 隐藏默认滚动条 */
+}
+
+.scroll-ring {
+    position: absolute;
+    width: 45vw;  /* 滚动条的外径 */
+    height: 45vw;
+    left: 35vw; /* 包裹轮盘 */
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.171); /* 圆形轨道 */
+    pointer-events: none;
+    z-index: 3;
+}
+
+/* 滚动条滑块 */
+.scroll-thumb {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    top: 0;  /* 初始位置：顶部 */
+    left: 50%; /* 滑块位于圆心的顶部 */
+    transform-origin: 50% 22.5vw; /* 旋转中心设置为距离圆心 22.5vw */
+    transform: translateX(-50%) rotate(0deg); /* 初始角度 */
+}
+
+
+/* 气泡按钮样式 */
+.interactive-bubble {
+    position: absolute;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.interactive-bubble:hover {
+    opacity: 1;
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.7);
+}
+
+/* 气泡位置 */
+.bubble1 { width: 18vw; height: 18vw; left: 5vw; top: 6vw; }
+.bubble2 { width: 13vw; height: 13vw; left: 24vw; top: 20vw; }
+.bubble3 { width: 13vw; height: 13vw; left: 10vw; top: 30vw; }
+.bubble4 { width: 15vw; height: 15vw; left: 5vw; top: 45vw; }
+.bubble5 { width: 15vw; height: 15vw; left: 22vw; top: 50vw; }
+
+
+.article-container {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2vw;
+    padding-top: 1vw;
+    border-radius: 50%;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-bottom: 10vw;
+    overflow-y: auto; /* 启用垂直滚动 */
+}
+
+
+/* 设置文本的样式，与 p 标签一致 */
+.text-content {
+    color: #FF69B4;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    display: block;
+}
+
+/* 滚动条样式（可选） */
+.article-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.article-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+/* 添加气泡中的文字样式 */
+.bubble-text {
+    position: absolute;
+    top: 48%;  /* 垂直居中 */
+    left: 45%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 通过 translate 实现完美居中 */
+    color: #fc7ef5be;  /* 文字颜色 */
+    font-size: 2.5vw; /* 根据需要调整字体大小 */
+    text-align: left; /* 多行文本居中对齐 */
+    pointer-events: none; /* 使文本不影响气泡的点击事件 */
+    white-space: nowrap;  /* 防止文本换行 */
+}
