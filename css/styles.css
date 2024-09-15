@@ -131,7 +131,7 @@ body {
 
 /* 滚动条样式（可选） */
 .article-container::-webkit-scrollbar {
-    width: 5px;
+    width: 0px;
 }
 
 .article-container::-webkit-scrollbar-thumb {
@@ -143,7 +143,7 @@ body {
 .bubble-text {
     position: absolute;
     top: 48%;  /* 垂直居中 */
-    left: 45%; /* 水平居中 */
+    left: 50%; /* 水平居中 */
     transform: translate(-50%, -50%); /* 通过 translate 实现完美居中 */
     color: #fc7ef5be;  /* 文字颜色 */
     font-size: 2.5vw; /* 根据需要调整字体大小 */

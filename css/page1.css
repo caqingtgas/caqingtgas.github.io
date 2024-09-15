@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow: hidden;
     background: linear-gradient(to bottom, white, pink);
     position: relative;
-}
-
+    overflow-x: hidden;
+    overflow-y: hidden; /* 禁止水平滚动 */
+    }
+    
 .back-button {
     position: absolute;
     width: 15vw;
@@ -90,7 +91,7 @@ body {
     padding-right: 2vw; /* 右侧留出部分间距 */
     padding-bottom: 1vh; /* 底部留出部分间距 */
     cursor: pointer; /* 鼠标悬停时显示指针 */ /* 文字颜色 */
-    font-size: 3vh; /* 文字大小 */
+    font-size: 1.5vw; /* 文字大小 */
     text-decoration: none; /* 去除默认的下划线 */
     color: #333;
 }
@@ -100,7 +101,7 @@ body {
 }
 
 .line-date {
-    font-size: 2vh; /* 较小的文字大小 */
+    font-size: 1vw; /* 较小的文字大小 */
     color: #888; /* 日期文字颜色 */
     margin-left: 2vw; /* 右侧留出间距 */
 }
