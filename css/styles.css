@@ -23,7 +23,6 @@ body {
     overflow: hidden;
     font-family: wen;
     font-display: swap;
-    word-break: break-all;
 }
 
 /* 背景气泡样式 */
