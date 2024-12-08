@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'shu'; /* 为字体命名 */
+    src: url('/fonts/shu.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'shuyi'; /* 为字体命名 */
+    src: url('/fonts/shuyi.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'wen'; /* 为字体命名 */
+    src: url('/fonts/LXGWWenKai-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, white, pink);
+    overflow: hidden;
+    font-family: wen;
+    font-display: swap;
+}
+
+/* 背景气泡样式 */
+.bubble {
+    position: absolute;
+    background-color: rgba(255, 182, 193, 0.6);
+    border-radius: 50%;
+}
+
+.top-bubble {
+    width: 50vw;
+    height: 50vw;
+    top: -25vw;
+    left: -25vw;
+}
+
+.bottom-bubble {
+    width: 40vw;
+    height: 40vw;
+    bottom: -20vw;
+    left: 10vw;
+}
+
+/* 轮盘样式 */
+.wheel-container {
+    position: absolute;
+    width: 34vw;
+    height: 34vw;
+    left: 35vw;
+    top: 23vw;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    overflow-y: scroll; /* 启用垂直滚动 */
+    scrollbar-width: none; /* Firefox 隐藏滚动条 */
+}
+
+.wheel-container::-webkit-scrollbar {
+    display: none; /* 隐藏默认滚动条 */
+}
+
+.scroll-ring {
+    position: absolute;
+    width: 38vw;  /* 滚动条的外径 */
+    height: 38vw;
+    left: 35vw; /* 包裹轮盘 */
+    top: 23vw;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 10px solid rgba(255, 255, 255, 0.171); /* 圆形轨道 */
+    pointer-events: none;
+    z-index: 3;
+}
+
+/* 滚动条滑块 */
+.scroll-thumb {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    top: 0;  /* 初始位置：顶部 */
+    left: 50%; /* 滑块位于圆心的顶部 */
+    transform-origin: 50% 19vw; /* 旋转中心设置为距离圆心 22.5vw */
+    transform: translateX(-50%) rotate(0deg); /* 初始角度 */
+}
+
+
+/* 气泡按钮样式 */
+.interactive-bubble {
+    position: absolute;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3), 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.interactive-bubble:hover {
+    opacity: 1;
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.7);
+}
+
+/* 气泡位置 */
+.bubble1 { width: 17vw; height: 17vw; left: 4vw; top: 4vw; }
+.bubble2 { width: 12vw; height: 12vw; left: 22vw; top: 18vw; }
+.bubble3 { width: 12vw; height: 12vw; left: 8vw; top: 28vw; }
+.bubble4 { width: 14vw; height: 14vw; left: 4vw; top: 44vw; }
+.bubble5 { width: 14vw; height: 14vw; left: 20vw; top: 48vw; }
+
+
+.article-container {
+    position: absolute;
+    top: 8vw;
+    right: 5vw;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2vw;
+    padding-top: 1vw;
+    border-radius: 50%;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-bottom: 10vw;
+    overflow-y: auto; /* 启用垂直滚动 */
+}
+
+
+/* 设置文本的样式，与 p 标签一致 */
+.text-content {
+    color: #FF69B4;
+    text-align: center;
+    margin: 0;
+    margin-top: 0.1vw;
+    display: block;
+    white-space: pre-line;
+    font-size: 1.8vw;
+}
+.text-content:nth-of-type(2) {
+    font-size: 1vw; /* 仅改变第二个 text-content 的字体大小 */
+}
+
+/* 滚动条样式（可选） */
+.article-container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.article-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+/* 添加气泡中的文字样式 */
+.bubble-text {
+    position: absolute;
+    top: 48%;  /* 垂直居中 */
+    left: 50%; /* 水平居中 */
+    transform: translate(-50%, -50%); /* 通过 translate 实现完美居中 */
+    color: #fc7ef5be;  /* 文字颜色 */
+    font-size: 2.8vw; /* 根据需要调整字体大小 */
+    text-align: left; /* 多行文本居中对齐 */
+    pointer-events: none; /* 使文本不影响气泡的点击事件 */
+    white-space: nowrap;  /* 防止文本换行 */
+}
+
+/* 移动端样式 */
+@media screen and (max-width: 768px) {
+
+    body {
+        background: linear-gradient(to bottom, white, rgb(255, 162, 178));
+    }
+
+    /* 移动端上泡泡位置调整 */
+    .top-bubble {
+        width: 50vw; /* 调整大小，使其更大 */
+        height: 50vw;
+        top: -10vw; /* 略微溢出到顶部 */
+        right: -15vw; /* 从右侧溢出 */
+        left: auto; /* 确保左边距自动 */
+        position: absolute;
+    }
+
+    /* 移动端下泡泡位置调整 */
+    .bottom-bubble {
+        width: 40vw; /* 调整大小，使其更大 */
+        height: 40vw;
+        top: 50%; /* 位于屏幕中央 */
+        left: -10vw; /* 略微溢出到左边 */
+        right: auto; /* 确保右边距自动 */
+        transform: translateY(-50%); /* 垂直居中 */
+        position: absolute;
+    }
+
+    /* 移动端轮盘和滚动环位置调整 */
+    .wheel-container {
+        width: 95vw; /* 调整宽度 */
+        height: 95vw; /* 调整高度 */
+        position: absolute;
+        left: 60vw;
+        top: 65%; /* 垂直居中 */
+        transform: translate(-50%,-50%); /* 垂直方向居中对齐 */
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        overflow-y: scroll;
+    }
+
+    .scroll-ring {
+        width: 55vw; /* 比轮盘稍大，确保完全显示 */
+        height: 55vw;
+        position: absolute;
+        left: 65vw;
+        top: 48%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        border: 10px solid rgba(255, 255, 255, 0.171);
+        z-index: 3;
+    }
+
+    .scroll-thumb {
+        position: absolute;
+        width: 2vw;
+        height: 2vw;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 50%;
+        top: 0;  /* 初始位置：顶部 */
+        left: 50%; /* 滑块位于圆心的顶部 */
+        transform-origin: 50% 27.5vw; /* 旋转中心设置为距离圆心 22.5vw */
+        transform: translateX(-50%) rotate(0deg); /* 初始角度 */
+    }
+
+    .bubble1 { width: 40vw; height: 40vw; left: 10vw; top: 8vw; }
+    .bubble2 { width: 35vw; height: 35vw; left: 55vw; top: 25vw; }
+    .bubble3 { width: 35vw; height: 35vw; left: 30vw; top: 55vw; }
+    .bubble4 { width: 37vw; height: 37vw; left: 15vw; top: 90vw; }
+    .bubble5 { width: 37vw; height: 37vw; left: 55vw; top: 110vw; }
+
+    /* 移动端内容框位置调整 */
+    .article-container {
+        position: absolute;
+        top: 4%;
+        left: 8vw;
+        width: 60vw;
+        height: 60vw;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 2vw;
+        padding-top: 1vw;
+        border-radius: 50%;
+        box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        margin-bottom: 10vw;
+        overflow-y: auto; /* 启用垂直滚动 */
+    }
+
+    /* 内容框内部文字调整 */
+    .text-content {
+        font-size: 6vw; /* 增大字体大小 */
+        text-align: center; /* 居中对齐 */
+        margin: 0;
+        margin-top: 0;
+    }
+
+    .text-content:nth-of-type(2) {
+        font-size: 3.5vw; /* 仅改变第二个 text-content 的字体大小 */
+    }
+
+    .bubble-text {
+        font-size: 8vw; /* 根据需要调整字体大小 */
+    }
+
+}
+
+
+
