@@ -1605,4 +1605,4 @@ function setLanguage(lang) {
 }
 
   
-  setLanguage('zh');
+  setLanguage('en');
