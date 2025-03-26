@@ -852,106 +852,87 @@ const translations = {
     },
 
     "12.5": {
-        zh: `DeClassified: 顺便问一下，所有的米塔都有地下室吗？还是说她们是如何在没有设备的情况下与玩家联系的？
-    DeClassified: 关于地下室的问题也别忽略啊。
-    youmэrai: 地下室那部分挺复杂的。
-    DeClassified: 那就是说有剧情漏洞？
-    youmэrai: 你才有洞。
-    DeClassified: 那你给我解释一下，其他的米塔是怎么和玩家联系的？还是说疯狂米塔需要这个只是因为她有 bug？
+        zh: `DeClassified: [...] 其他的米塔是怎么和玩家联系的？还是说疯狂米塔需要这个只是因为她有 bug？
     youmэrai: 她毕竟还偷了一个版本。
-    ！！！这里怎么翻译都不通顺，直译是【她还偷了个版本】，从后文我们知道【版本】其实说的是【房间】，所以youmэrai的大致意思是，有房间就可以联系，但具体的不告诉你。
+    ！！！从后文我们知道【版本】其实说的是【房间】，所以youmэrai的大致意思是，有房间就可以联系，但具体的不告诉你。
+
     Someguy.kra: 顺便问一下，她是从善良米塔那里偷的吗？
-    youmэrai: 顺便说一下，如果你有耳朵，在游戏开头就听到类似的内容了。
-    ！！！提问者用кстати（顺便问一下）开头，youmэrai在这里模仿他也用кстати（顺便说一下）开头，是在调侃。
+    youmэrai: [...] 在游戏开头就听到了类似的内容了。
     ！！！youmэrai的意思是，游戏一开始到地下室善良米塔不就告诉过你了吗？【实际上这里是我的版本】
-    DeClassified: 结局里的那个短发造型也是偷的吗？
+
     Eclipse: 嘿，她被拿走的是房间，又不是皮肤。
     youmэrai: 这里的“版本”指的是房间。
-    ！！！DeClassified的问题到这里就被跳过了，后续没有答案。
+
     ThePhoenix_Y: 那个铸造钥匙的Q版米塔，属于哪个版本？是短发米塔的吗？
     youmэrai: 从发型就能看出来，像吗？不像。
-    hwayz: 我就一个问题，你们是怎么做出这么棒的游戏的？？？所有细节都打磨得非常好，真的一点多余的过场动画都没有，音乐也很棒，难道真的是你们俩独立完成的吗？？？我对你们两个真的非常惊讶。
-    youmэrai: 我们俩都很想让男孩们开心。
     Eclipse: 那么，就没人有那种（发型），只有真正的疯狂米塔有短发波波头。
     youmэrai: 好吧，这是另一个没有展示的米塔。
-    ThePhoenix_Y: 她的发型看起来像疯狂米塔的发型——当她的假发掉下来时，所以才有这个问题。
-    youmэrai: 不像。
-    Eclipse: 那为什么她说主角之前见过她的“姐姐”？我们之前没见过Q版米塔，所以姐姐应该是米塔。我们只见过“好”、“疯”、“帽”和“小”，难道是小米塔吗？
-    youmэrai: 因为在那个地方待了两年的，是双马尾米塔。
-    ！！！youmэrai这里说的这句话不明不白，不知道为什么会提到一个【两年】，也弄不清【那个地方】是哪儿，【双马尾米塔】也不知道为什么会出现。原上下文也没有人注意这句话。
-    youmэrai: 后来我们决定换成另一个，但她指的其实是任何米塔，别纠结。
-    ！！！上面那一句没弄懂也没关系了，反正已经被取消了，也就是，在这里这个袖珍米塔提到的“姐姐”就是任何米塔。
 
-    ！！！原讨论的跨度非常长，里面还有关于洞的黄黄笑话，已经把无关的对话在截图中截掉，现在的对话图是拼合而成的，然而依然有一些无关的艾特，以我提取的对话为准。`,
-        ru: `DeClassified: Кстати, у всех Мит подвал есть? Или как они на связь с игроком выходят без оборудования
-    youmэrai: бля братэлла сорян аткинул
-    DeClassified: Вопросик про подвал тоже не откинь хоть
-    youmэrai: про подвал там сложно
-    DeClassified: Сюжетная дыра получается?
-    youmэrai: у тебя дыра
-    DeClassified: Ну ты мне тогда объясни, как остальные Миты на связь с игроком выходят. Или Безумной это нужно просто потому, что она баганная?
+    hwayz: 我就一个问题，你们是怎么做出这么棒的游戏的？？？所有细节都打磨得非常好，真的一点多余的过场动画都没有，音乐也很棒，难道真的是你们俩独立完成的吗？？？我对你们两个真的非常惊讶。
+    youmэrai: 我们俩都很想让男孩们开心。
+
+    Eclipse: 那为什么她说主角之前见过她的“姐姐”？我们之前没见过Q版米塔，所以姐姐应该是米塔。我们只见过“好”、“疯”、“帽”和“小”，难道是小米塔吗？
+    youmэrai: [...] 但她指的其实是任何米塔，别纠结。
+    ！！！也就是，在这里这个袖珍米塔提到的“姐姐”就是任何米塔。
+
+    ！！！原讨论的跨度非常长，已经把无关的对话截掉，以我提取的对话为准，当然，也已经给出了整个讨论的起止位置，可以自行前去查看。`,
+        ru: `DeClassified: [...] как остальные Миты на связь с игроком выходят. Или Безумной это нужно просто потому, что она баганная?
     youmэrai: она ведь еще версию стыбзила
+
     Someguy.kra: Кстати, она получается у Доброй украла?
-    youmэrai: кстати если есть слух, то можно такое услышать в начале игры
-    DeClassified: А внешка из концовки, с короткими волосами – тоже украденная?
+    youmэrai: [...] то можно такое услышать в начале игры
+
     Eclipse: Hey у нее же дом забрали, а не кожу
     youmэrai: ну под версией имеется в виду дом
+    
     ThePhoenix_Y: чиби-мита (которая отливает ключ), чей версией она является? (коротковолосой миты?)
     youmэrai: по прическе можно понять, похожа прическа? НЕТ
-    hwayz: @youmэrai @MakenCat, один вопрос, как вы сделаете такую крутую игру??? Все проработано до мелочей, буквально. Нету ни одной лишней кат сцены, ничего лишнего. И еще музыка, неужели вы вдвоем все это сделали??? Я очень удивлен вами обеими
-    youmэrai: Мы обе очень хотели порадовать мальчиков
     Eclipse: Ну так ни у кого нет такой, только у настоящей БМ каре
     youmэrai: ну значит другая Мита, которая не показана
-    ThePhoenix_Y: её прическа похожа на прическу безумной миты, когда с неё спадает парик, отсюда и вопрос собственно
-    youmэrai: не похожа
+
+    hwayz: @youmэrai @MakenCat, один вопрос, как вы сделаете такую крутую игру??? Все проработано до мелочей, буквально. Нету ни одной лишней кат сцены, ничего лишнего. И еще музыка, неужели вы вдвоем все это сделали??? Я очень удивлен вами обеими
+    youmэrai: Мы обе очень хотели порадовать мальчиков
+
     Eclipse: Тогда почему она говорит что гг уже виделся с её "сестрёнкой"? Мы не встречали чибиков до этого, значит сестрёнка – это Мита, Мы видели только Добрую, Безумную, Кепочку и Маленькую, неужели это Маленькая?
-    youmэrai: потому что там 2 года сидела Мита с двумя хвостиками
-    youmэrai: а потом мы решили сделать другую, но она имеет в виду любую Миту, так что спок`,
-        en: `DeClassified: By the way, do all Mitas have a basement? Or how do they contact the player without equipment?
-    DeClassified: Don’t skip the basement question either.
-    youmэrai: That part about the basement is kinda complicated.
-    DeClassified: So that means there's a plot hole?
-    youmэrai: No, you have the hole.
-    DeClassified: Then tell me, how do the other Mitas contact the player? Or is it just because Crazy Mita is buggy?
-    youmэrai: She did steal a version.
-    !!! This is hard to translate literally. She “stole a version” — which in context likely means “a room,” implying having a room allows contact.
+    youmэrai: [...] но она имеет в виду любую Миту, так что спок`,
+        en: `DeClassified: [...] How do the other Mitas communicate with the player? Or is it just that Crazy Mita needs this because she’s buggy?
+    youmэrai: Well, she did steal a version.
+    !!! From later context, we can tell that “version” actually refers to a “room,” so what youmэrai likely means is that having a room allows contact — though she deliberately avoid explaining it directly.
+
     Someguy.kra: By the way, did she steal it from Kind Mita?
-    youmэrai: By the way, if you had ears, you'd have heard that at the start of the game.
-    !!! The original poster starts with “кстати” (“by the way”), and youmэrai imitates that phrase in mockery.
-    !!! She's saying: Kind Mita already told you in the basement at the start — “this is actually my version.”
-    DeClassified: That short-haired look from the ending — was that stolen too?
+    youmэrai: [...] you have heard something like that at the beginning of the game.
+    !!! The meaning is: Kind Mita already told you in the basement at the start — “this is actually my version.”
+
     Eclipse: Hey, they took her house, not her skin.
-    youmэrai: By “version,” I mean room.
-    !!! DeClassified’s question was skipped — no real answer followed.
-    ThePhoenix_Y: That chibi Mita who forges the key — whose version is she? Short-haired Mita?
-    youmэrai: Just look at her hair. Does it look the same? No, it doesn’t.
-    hwayz: Just one question: how did you make such an amazing game??? Every detail is polished, no unnecessary cutscenes, amazing music — was it really just you two? I’m so impressed.
+    youmэrai: By “version,” I mean the room.
+
+    ThePhoenix_Y: That chibi Mita — the one casting the key — is she from the short-haired Mita’s version?
+    youmэrai: Just look at the hairstyle. Does it look the same? Nope.
+    Eclipse: Well, no one else has that haircut. Only the real Crazy Mita has the bob cut.
+    youmэrai: Then that must be another Mita we didn’t show.
+
+    hwayz: Just one question — how did you two make such an amazing game??? Every detail is so polished. Not a single unnecessary cutscene. The music is great. Was it really just you two? I’m really impressed.
     youmэrai: We both really wanted to make the boys happy.
-    Eclipse: So no one else has that style. Only the real Crazy Mita has the short bob.
-    youmэrai: Then it's another Mita — one that wasn’t shown.
-    ThePhoenix_Y: Her hairstyle looked like Crazy Mita’s — after the wig fell off. That’s why I asked.
-    youmэrai: Doesn’t look like her.
-    Eclipse: Then why did she say the protagonist had already seen her “sister”? We hadn’t seen a chibi Mita before, so the sister must be a Mita. We've only seen Kind, Crazy, Cap, and Tiny — is it Tiny?
-    youmэrai: Because the one who stayed there for two years was the twin-tail Mita.
-    !!! This part is unclear. What does “two years” refer to? Which place? Why twin-tail Mita? No one followed up.
-    youmэrai: Later we decided to change her. But she meant any Mita, so don’t overthink it.
-    !!! So even if we didn’t get that last line, it’s okay — it was retconned. The “sister” mentioned by this chibi Mita refers to any Mita.
 
-    !!! The original thread was really long, and included some jokes about “holes” — the current image is stitched from that thread, and some unrelated @s were cut. I used only the relevant ones.`
+    Eclipse: Then why does she say the player already met her “sister”? We hadn’t seen any chibi Mitas before. So the sister must be another Mita, right? We only saw Kind, Crazy, Cap, and Tiny — is it Tiny?
+    youmэrai: [...] But she meant any Mita, really. Don’t overthink it.
+    !!! The “sister” mentioned by this chibi Mita refers to any Mita.
+
+    !!! The original discussion was very long, and unrelated replies have been trimmed. The dialogue here is based on selected key parts. The full thread can still be viewed via the provided start and end links.`
     },
 
-    "12.6": {
-        zh: `Aggressive Menace: 和平模式是为了让玩家通关，还是一个无限循环模式？
-    youmэrai: 愚蠢的问题，我也不确定。
+    // "12.6": {
+    //     zh: `Aggressive Menace: 和平模式是为了让玩家通关，还是一个无限循环模式？
+    // youmэrai: 愚蠢的问题，我也不确定。
     
-    ！！！"хз"（хрен знает）【鸡巴 知道】是俄语俚语，意思是 "鬼才知道" 或 "我知道个鸡巴"`,
-        ru: `Aggressive Menace: Можно узнать у вас, мирный режим рассчитан на прохождение или это бесконечный режим?
-    youmэrai: тупой вопрос номер хз`,
-        en: `Aggressive Menace: Can we find out—is Peaceful Mode designed to be completed, or is it an endless mode?
-    youmэrai: Dumb question number “idk.”
+    // ！！！"хз"（хрен знает）【鸡巴 知道】是俄语俚语，意思是 "鬼才知道" 或 "我知道个鸡巴"`,
+    //     ru: `Aggressive Menace: Можно узнать у вас, мирный режим рассчитан на прохождение или это бесконечный режим?
+    // youmэrai: тупой вопрос номер хз`,
+    //     en: `Aggressive Menace: Can we find out—is Peaceful Mode designed to be completed, or is it an endless mode?
+    // youmэrai: Dumb question number “idk.”
 
-    !!! "хз" (хрен знает)【dick knows】is Russian slang meaning "who the hell knows," "no idea," or "I know jack shit."`
-    },
+    // !!! "хз" (хрен знает)【dick knows】is Russian slang meaning "who the hell knows," "no idea," or "I know jack shit."`
+    // },
 
     "12.7": {
         zh: `Kate: 是真的吗？和平模式会在2026年推出，像Umeerai说的那样？
@@ -1162,13 +1143,13 @@ const translations = {
         zh: `Klop: 我漏掉了，抱歉。谢谢你的回答。
     youmэrai: 这个假人游戏不能错过，笑死。
 
-    ！！！传送带的游戏是游戏流程之中的，根本无法错过。"кек" 是俄语网络俚语，相当于 "LOL"（笑死），比 "ха-ха"（哈哈）更随意，带有讽刺/玩笑色彩。`,
+    ！！！传送带的游戏是游戏流程之中的，根本无法错过。`,
         ru: `Klop: Пропустил ее, сорри. Спасибо за ответ.
     youmэrai: Игру с манекенами не пропустить кек`,
         en: `Klop: I missed it, sorry. Thanks for the answer.
     youmэrai: Can’t miss the mannequin game, LOL.
 
-    !!! The conveyor belt game is part of the gameplay and cannot be missed. "кек" (kek) is Russian internet slang, equivalent to "LOL," but more casual and sarcastic, used to mock or laugh at something absurd.`
+    !!! The conveyor belt game is part of the gameplay and cannot be missed.`
     },
 
     "12.27": {
@@ -1198,14 +1179,14 @@ const translations = {
     youmэrai: Mila’s trying to be exceptional, but at heart—she loves carrots.`
     },
 
-    "12.30": {
-        zh: `Baka: 我有个关于帽子米塔的问题。嗯？为什么她在米塔预览里，脸看起来那么疯狂？
-    youmэrai: 神经+色鬼。`,
-        ru: `Baka: У меня вопрос про кепку. А? А чё у неё лицо в просмотре мит безумное какое-то?
-    youmэrai: Шиз хорни.`,
-        en: `Baka: I have a question about Cap-wearing Mita. Hmm? Why does her face look so crazy in the preview?
-    youmэrai: Neurotic + horny.`
-    },
+    // "12.30": {
+    //     zh: `Baka: 我有个关于帽子米塔的问题。嗯？为什么她在米塔预览里，脸看起来那么疯狂？
+    // youmэrai: 神经+色鬼。`,
+    //     ru: `Baka: У меня вопрос про кепку. А? А чё у неё лицо в просмотре мит безумное какое-то?
+    // youmэrai: Шиз хорни.`,
+    //     en: `Baka: I have a question about Cap-wearing Mita. Hmm? Why does her face look so crazy in the preview?
+    // youmэrai: Neurotic + horny.`
+    // },
 
     "12.31": {
         zh: `Mirage: 你们已经有新游戏的计划或想法了吗？还是暂时只专注于《MiSide》？
@@ -1418,10 +1399,8 @@ const translations = {
     4）新游戏时的卡带插入声。  
     5）用手机就能进入游戏世界，结果版本间跳跃却要一堆设备和能量。  
     是不是进入传送门那一刻才开始数字化？毕竟当时显示“数据已传输”。  
-    rawumeerai: 图片：你他妈的在干嘛？  
     MakenCat: 你完全理解错了，重开吧。  
 
-    ！！！rawumeerai 发了一张调侃图，意思是“你太认真了”或“你想太多了”。  
     ！！！“Ну ты маше и мада”是俄语俚语，表示“你搞混了”或“理解错了”，语气轻松。`,
         ru: `Aksee: Я прочитал в новом FAQ ответ на 15 вопрос, что игрок записывается на картридж на протяжении всей игры, а не с самого начала картридж.  
     Но в игре же есть ну очень много противоречий этому...  
@@ -1431,7 +1410,6 @@ const translations = {
     4. Звук вставленного картриджа  
     5. Телефон в отличие от телепорта и энергии  
     Как это объяснить?  
-    rawumeerai: картинка: Ты че ебать  
     MakenCat: Ну ты маше и мада, всё не так понял значит, переигрывай`,
         en: `Aksee: The new FAQ says the player is recorded to the cartridge over time—not from the very start.  
     But there are tons of contradictions…  
@@ -1441,11 +1419,9 @@ const translations = {
     4. The cartridge-insert sound at New Game  
     5. Phone transfer vs version teleport requires massive energy  
     So did digitization begin at the portal moment? It even says “Data transferred.”  
-    rawumeerai: [Image]: What the fuck are you doing?  
     MakenCat: You totally misunderstood—replay the game.  
 
-    !!! rawumeerai posted a meme to tease—meaning “You’re overthinking it.”  
-    !!! “Ну ты маше и мада” is Russian slang meaning “you got it all wrong” or “you misunderstood everything.”`
+    !!! “Ну ты маше и мада” is Russian slang meaning “you got it all mixed up” or “you misunderstood everything,” used in a lighthearted, non-serious tone.`
     },
 
     "12.52": {
