@@ -658,7 +658,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "11.2" : {
             zh: `Moony: 和米塔在一起不是一个好结局吗？
         MakenCat: 是的，这很好，但大家也希望其他米塔也都好。
-        Moony: 所以理论上，我们和米塔在一起，最终没有人死去，无论是善良的、可爱的还是戴帽子的米塔。
+        Moony: 所以理论上，我们和米塔在一起，最终没有人死去，无论是善良米塔、米拉还是帽子米塔。
         MakenCat: 是的，确实如此。`,
             ru: `Moony: Разве остаться с Митой не хорошая концовка?
         MakenCat: Это хорошая да, но хотят же с другими Митами чтобы было всё хорошо.
@@ -666,7 +666,7 @@ document.addEventListener("DOMContentLoaded", function() {
         MakenCat: Ну так и есть.`,
             en: `Moony: Isn't staying with Mita a good ending?
         MakenCat: It is, yes. But people also want the other Mitas to be okay.
-        Moony: So theoretically, we stay with Mita, and in the end, no one dies — not Kind Mita, not Cute Mita, not Cap-wearing Mita.
+        Moony: So theoretically, we stay with Mita, and in the end, no one dies — not Kind Mita, not Mila, not Cap-wearing Mita.
         MakenCat: That's right.`
         },
         

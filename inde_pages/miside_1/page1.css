@@ -25,12 +25,12 @@ body::before {content:'';position:fixed;width:67.5vw;height:67.5vw;max-width:900
 .article-container h1{text-align:center;font-size:2.7rem;color:var(--primary-color);margin-top:0;margin-bottom:2.25rem;}
 .title-divider{border:0;height:3.3px;background:linear-gradient(to right, transparent, var(--divider-color), transparent);margin:2.25rem 0 2.8rem 0;}
 .content-block{font-size:1.7rem;line-height:1.2;color:var(--text-color);text-align:justify;margin-bottom:2.8rem;}
-.content-block.intro-block{padding:2rem;background-color:var(--light-bg-color);border-radius:16.875px;border:1.1px solid var(--border-color);}
-.separator{border:0;height:1.1px;background:linear-gradient(to right, transparent, var(--divider-color), transparent);margin:1.8rem auto;width:80%;}
-.loutu{display:block;max-width:90%;margin:2.25rem auto;border-radius:13.5px;}
+.content-block.intro-block{padding:2.8rem;background-color:var(--light-bg-color);border-radius:16.875px;border:1.1px solid var(--border-color);}
+.separator{border:0;height:2px;background:linear-gradient(to right, transparent, var(--divider-color), transparent);margin:1.8rem auto;width:80%;}
+.loutu{display:block;max-width:90%;margin:1.8rem auto;border-radius:13.5px;}
 .content-block a{color:var(--primary-color);text-decoration:underline;text-decoration-thickness:1.1px;text-underline-offset:3.3px;transition:color 0.3s ease;}
 .content-block a:hover{color:var(--primary-hover-color);}
-.content-block-inner{margin-top:3.3rem;}
+.content-block-inner{margin-top:2.8rem;}
 .source-title{font-size:1.8rem;line-height:1.3;color:var(--primary-color);margin-top:3.3rem;margin-bottom:1.7rem;padding-bottom:0.9rem;border-bottom:3.3px solid var(--primary-color);font-weight:600;word-break:break-all; /* Apply word break */ overflow-wrap:break-word; /* Ensure wrapping */}
 .content-block-inner > .source-title:first-of-type {margin-top: 0;}
 .collapsible-item{margin-bottom:1.7rem;border:1.1px solid var(--border-color);border-radius:16.875px;overflow:hidden;background-color:transparent;box-shadow:0 2.25px 5.625px rgba(255, 126, 179, 0.08);}
@@ -46,9 +46,9 @@ body::before {content:'';position:fixed;width:67.5vw;height:67.5vw;max-width:900
 .inner-separator{border:0;height:1.1px;background-color:var(--border-color);margin:1.7rem 0;}
 .collapse-trigger-bottom{display:block;margin:1.1rem auto 1.7rem auto;padding:0.3em 1.1em;font-size:1.7rem;line-height:1;font-family:inherit;background-color:var(--primary-color);color:white;border:none;border-radius:1.7em;cursor:pointer;transition:all 0.3s ease;box-shadow:var(--button-shadow);min-width:45px;text-align: center;}
 .collapse-trigger-bottom:hover{background-color:var(--primary-hover-color);transform:scale(1.05);}
-.history-info{font-size:1.07rem;color:var(--light-text-color);margin-top:4rem;text-align:left;border-top:1.1px solid var(--divider-color);padding:2.25rem 4.5rem;}
+.history-info{font-size:1rem;color:var(--light-text-color);margin-top:4rem;text-align:left;border-top:1.1px solid var(--divider-color);padding:2rem 4.5rem;line-height: 1.2rem;}
 .history-info p{margin-bottom:0.5625rem;}
-.section-divider{border:0;height:1.1px;background:linear-gradient(to right, transparent, var(--divider-color), transparent);margin:4rem 0;}
+.section-divider{border:0;height:2px;background:linear-gradient(to right, transparent, var(--divider-color), transparent);margin:4rem 0;}
 /* Responsive Styles */
 @media screen and (max-width:768px){
 html{font-size:16px;}
@@ -62,12 +62,15 @@ body::before {display: none;}
 .title-divider{height:3px; width: 100%; margin: 0.6rem auto 2.25rem auto;}
 .loutu{max-width:100%;border-radius:8px;}
 .content-block{font-size:1.1rem;}
+.content-block.intro-block {padding: 0.5rem;padding-top: 1rem;padding-bottom: 1.2rem;border-radius: 12px;margin: -0.8rem;}
 .source-title{font-size:1.2rem;margin-top:2rem;margin-bottom:1.1rem;}
 .collapsible-button{padding:1.1rem 1.7rem;font-size:1.1rem;}
 .collapsible-button:after{font-size:1.8rem;}
 .content{padding:0 0.8rem;}
 .content span{font-size:1.1rem;}
+.content-block-inner {margin: -0.7rem;margin-top: 3.3rem;}
 .collapse-trigger-bottom{margin: 1.1rem auto; font-size: 1.4rem;}
 .history-info{font-size:1rem; padding: 1rem;}
 .section-divider{margin:2rem 0;}
+.separator{margin:1rem auto;width:90%;}
 }
