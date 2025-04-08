@@ -1520,29 +1520,11 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     
         "12.53": {
-            zh: `etakat: 游戏里米拉提到电子宠物（Tamagotchi）是指她带我们进入的游戏吗？“愚蠢的 Tamagotchi”这句话该怎么理解？  
-        rawumeerai: 很明显，“她说的是那个米塔把我们带进去的游戏”。  
-    
-        ！！！意思是，米塔游戏就是那个电子宠物游戏。`,
-            ru: `etakat: когда мила упоминает в игре тамагочи она говорит про игру в которую нас перенесла мита? как понимать "Дурацкий Тамагочи"??  
-        rawumeerai: ну, очевидно, что "она говорит про игру в которую нас перенесла мита"`,
-            en: `etakat: In the game, when Mila mentions “Tamagotchi,” is she talking about the game Mita brought us into? How do we interpret “stupid Tamagotchi”?  
-        rawumeerai: Obviously, she means the game Mita transferred us into.  
-    
-        !!! So, the “Mita game” is the Tamagotchi-like game being referred to.`
+            ru: `Fix in progress`
         },
     
         "12.54": {
-            zh: `etakat: 在电子宠物模式中，米塔让我们送礼物时，是在打破第四面墙和我们说话吗？  
-        rawumeerai: 即使是“第四面墙”，也是发生在游戏世界内部。  
-    
-        ！！！意思是，没有直接和现实中玩家说话，而是对游戏内角色而言。`,
-            ru: `etakat: в тамагочи игре, когда мита просит подарок - она ломает четвертую стену?  
-        rawumeerai: если только "Четвертая стена" внутри игры | для гг типа`,
-            en: `etakat: In Tamagotchi mode, when Mita asks us to give her a gift—is she breaking the fourth wall?  
-        rawumeerai: Even if it’s “the fourth wall,” it’s within the game world.  
-    
-        !!! She’s not speaking directly to the real-world player, only the in-game character.`
+            ru: `Fix in progress`
         },
     
         "12.55": {
@@ -1555,57 +1537,15 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     
         "12.56": {
-            zh: `French Mita: 关于和平模式：你说‘目前没有这样的计划’时，是指你们还不知道/不想做，还是暗示以后可能会考虑？  
-        rawumeerai: huh?（疑惑）  
-        French Mita: 抱歉我的英语不好😂，我是想问，你们会考虑给和平模式加更多米塔吗，还是你们不确定或者不想做？  
-        rawumeerai: 我们在考虑中。  
-    
-        ！！！提问者的意思是，“目前没有这样的计划”是不是委婉的拒绝，还是说真的日后还有机会，此处umee表示只是还没有想好`,
-            ru: `French Mita: About peaceful mode: when you say ‘there is no such plan at the moment,’ do you mean you don’t know/don’t want to do it, or are you hinting that you might consider it in the future?  
-        rawumeerai: huh?  
-        French Mita: Sorry, my English is bad 😂, I meant to ask if you would consider adding more Mitas in peaceful mode, or if you are unsure or don’t want to do it?  
-        rawumeerai: We're considering it.`,
-            en: `French Mita: Regarding Peaceful Mode—when you said “there’s no plan for that right now,” did you mean you’re undecided or just not interested? Or are you hinting it might be added later?  
-        rawumeerai: huh?  
-        French Mita: Sorry, my English is bad 😂. I meant—would you consider adding more Mitas to Peaceful Mode, or are you unsure/don’t want to?  
-        rawumeerai: We’re considering it.  
-    
-        !!! The question was whether “no plans for now” was a soft rejection or open-ended. Umeerai confirms: it’s just undecided.`
+            ru: `Fix in progress`
         },
     
         "12.57": {
-            zh: `venomkat: 你知道1.5版本里那个吓人的米塔叫什么吗？现在她被叫做“霸凌米塔”，这合适吗？  
-        rawumeerai: 游戏里她被称为“欺负和恐吓的人”，这不就是霸凌吗？  
-        venomkat: 英语社区建议的一些名字有：恶作剧米塔、吓人米塔、诡异米塔。你觉得“霸凌”合适吗？  
-        rawumeerai: 啊对，是“欺负”。但其实她只是稍微搞点恐怖秀而已。  
-    
-        ！！！强调的是“吓唬”，并不是霸凌`,
-            ru: `venomkat: как называется мита из версии 1.5 которая пугает? сейчас ее называют "мита-травля"  
-        rawumeerai: в игре это "Мита, которая издевается и запугивает" — чем не травля  
-        venomkat: предложили имена: мита пугалище, мита пранкер  
-        rawumeerai: а, да, "издевается". Но по сути она просто устраивает маленькое хоррор шоу`,
-            en: `venomkat: Do you know what the scary Mita in version 1.5 is called? She's now often called “Bullying Mita”—does that fit?  
-        rawumeerai: In-game she’s called “Mita who bullies and intimidates,” so yeah, sounds like bullying.  
-        venomkat: The English community has suggested names like “Prank Mita,” “Scary Mita,” “Weird Mita.”  
-        rawumeerai: Oh right—“bullies.” But honestly, she’s just putting on a little horror show.  
-    
-        !!! Umeerai clarifies it’s more about scaring than actual bullying.`
+            ru: `Fix in progress`
         },
     
         "12.58": {
-            zh: `Veda: 短发米塔真的进入了街机里吗？  
-        venomkat: 我觉得是的。 | 她在显示器里。  
-        rawumeerai: 是的，她在里面。  
-    
-        ！！！原句“Встретишь меня в игровом автомате.” 应为“你会在游戏机里见到我。” 而非“在游戏机旁”`,
-            ru: `Veda: коротковолосая мита действительно была внутри автомата?  
-        venomkat: да, в мониторе  
-        rawumeerai: да, она`,
-            en: `Veda: Did Short-haired Mita actually go inside the arcade machine?  
-        venomkat: I think so—she was in the monitor.  
-        rawumeerai: Yes, she was.  
-        
-        !!! The phrase “Встретишь меня в игровом автомате” correctly means “You’ll meet me IN the arcade machine,” not just beside it.`
+            ru: `Fix in progress`
         },
     
         "12.59": {
