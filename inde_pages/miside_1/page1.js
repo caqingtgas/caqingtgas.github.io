@@ -574,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function() {
         还有什么想对中国玩家说的？——非常感谢中国玩家的支持和喜欢。我们会继续为游戏制作更多内容。我们计划为米塔添加一些新服装。这些在游戏发售之后就会开始进行制作。另外在未来我们将要推出的和平模式。它可能更像是一个生活模拟器。玩家可以与米塔一起生活。也将会体验到一些独特的内容。`,
         
             ru: `【Обратный перевод с китайского】
-        Что вдохновило вас на создание Миты? — В то время мы как раз придумывали новую игру и обсуждали старые идеи. Одна из них — это старый проект под названием Unfend, где тоже была история о призрачной девушке, одержимой главным героем. Она его преследовала и пугала. Также мы вспомнили идею с тамагочи, но с сюжетом, который полностью выходит из-под контроля. Совместив эти два направления, мы придумали МиСайд — история о девушке, которая заточила главного героя в цифровом «питомце» и начала его пугать. Позже мы расширили сюжет, добавив темы ухода от реальности и одиночества. Это стало ядром всей истории.
+        Что вдохновило вас на создание Миты? — В то время мы как раз придумывали новую игру и обсуждали старые идеи. Одна из них — это старый проект под названием Unfend, где тоже была история о призрачной девушке, одержимой главным героем. Она его преследовала и пугала. Также мы вспомнили идею с тамагочи, но с сюжетом, который полностью выходит из-под контроля. Совместив эти два направления, мы придумали МиСайд — история о девушке, которая заточила главного героя в цифровом мире, похожем на тамагочи, и начала его пугать. Позже мы расширили сюжет, добавив темы ухода от реальности и одиночества. Это стало ядром всей истории.
         
         Когда выйдет Мирный режим? — Мы разрабатывали МиСайд почти без перерыва три года. Сейчас нам нужно немного отдохнуть и восстановиться. Ещё есть механики, которые мы хотели добавить до релиза, но не успели. Например, идея с дополнительными костюмами, которые открываются после прохождения аркадных автоматов. Мы планируем выпустить Мирный режим примерно через год. Надеемся, что всё пойдёт по плану, и будем делиться новостями.
         
@@ -880,7 +880,7 @@ document.addEventListener("DOMContentLoaded", function() {
         Froulette: ну это скучно как то
         MakenCat: ну ок`,
             en: `Froulette: So it's just a plain simulator?
-        MakenCat: Yeah | Good ending | You can play it
+        MakenCat: Yeah | Good ending | One you can actually play
         Froulette: Hmm, that sounds kind of boring.
         MakenCat: Well, OK.`
         },
@@ -1023,7 +1023,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "12.7": {
             zh: `Kate: 是真的吗？和平模式会在2026年推出，像Umeerai说的那样？
         MakenCat: 嗯，是的。`,
-            ru: `Kate: Правда что мирный режим в 26 году, как умеряй говорил?
+            ru: `Kate: Правда что мирный режим в 26 году, как умерай говорил?
         MakenCat: Ну да`,
             en: `Kate: Is it true that Peaceful Mode will come in 2026, like Umeerai said?
         MakenCat: Yeah, that's right.`
@@ -1520,11 +1520,29 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     
         "12.53": {
-            ru: `Fix in progress`
+            zh: `etakat: [...] 游戏里米拉提到电子宠物（Tamagotchi）是指她带我们进入的游戏吗？ [...] | “愚蠢的 Tamagotchi”这句话该怎么理解？  
+        rawumeerai: 很明显，“她说的是那个米塔把我们带进去的游戏”。  
+    
+        ！！！意思是，米塔游戏就是那个电子宠物游戏。`,
+            ru: `etakat: [...] когда мила упоминает в игре тамагочи она говорит про игру в которую нас перенесла мита? [...] | как понимать "Дурацкий Тамагочи"??  
+        rawumeerai: ну, очевидно, что "она говорит про игру в которую нас перенесла мита"`,
+            en: `etakat: [...] In the game, when Mila mentions “Tamagotchi,” is she talking about the game Mita brought us into? [...] | How do we interpret “stupid Tamagotchi”?  
+        rawumeerai: Obviously, she means the game Mita transferred us into.  
+    
+        !!! So, the “Mita game” is the Tamagotchi-like game being referred to.`
         },
     
         "12.54": {
-            ru: `Fix in progress`
+            zh: `etakat: 在电子宠物游戏中，当米塔用游戏内的提示“送我礼物”请求我们送她礼物时 | 在我们被吸进游戏之前的那段 | 她是在打破第四面墙、以自己的身份和我们说话吗？ | 还是说不该那样，这句台词应该更中性？  
+            rawumeerai: 哪怕是“第四面墙”，那也只是游戏里的 | 是对游戏角色而言的
+            
+            ！！！意思是，没有直接和现实中玩家说话，而是对游戏内角色而言。`,
+            ru: `etakat: там где мита просит нас подарить ей подарок внутриигровой подсказкой "Подари мне подарок" | в тамагочи игре до того как нас засосет в игру | она ломает четвертую стену и говорит от своего лица? | или так быть не должно и оно должно звучать нейтрально?  
+            rawumeerai: если только "Четвертая стена" внутри игры | для гг типа`,
+            en: `etakat: In the Tamagotchi game, when Mita asks us to give her a gift using the in-game hint "Give me a gift" | before we get pulled into the game | is she breaking the fourth wall and speaking as herself? | or is it not supposed to be like that and the line should sound neutral?  
+            rawumeerai: Even if it breaks the fourth wall, it's only within the game | and meant for the in-game character.
+            
+            !!! She’s not speaking directly to the real-world player, only the in-game character.`
         },
     
         "12.55": {
@@ -1537,15 +1555,72 @@ document.addEventListener("DOMContentLoaded", function() {
         },
     
         "12.56": {
-            ru: `Fix in progress`
+            zh: `~~ French Mita ~~: @rawumeerai，关于和平模式我有个小问题：|你之前说“目前没有这方面的计划”，是指你们不确定 / 不想加入更多米塔，|还是说这可能未来会考虑呢？  
+            rawumeerai: 啥？
+            ~~ French Mita ~~: 我的英文不太好，抱歉 XD | 我是想问：你们有没有考虑在和平模式里添加更多米塔？ | 还是说你们不确定，或者不打算添加？  
+            rawumeerai: 我们正在考虑中
+            
+            ！！！提问者的意思是，“目前没有这样的计划”是不是委婉的拒绝，还是说真的日后还有机会，此处umee表示只是还没有想好`,
+            ru: `~~ French Mita ~~: @rawumeerai Hey, quick question about the peaceful mod: when you say, "We don't have such a plan at the moment," about adding more Mita's, do you simply mean that you don't know/want, or are you implying that it might eventually be considered?  
+            rawumeerai: huh?  
+            ~~ French Mita ~~: My english is bad sorry xd | But I mean, are you considering adding more mitas to the peaceful mod, | or are you not sure or don’t want to?  
+            rawumeerai: We're considering it`,
+            en: `~~ French Mita ~~: @rawumeerai Hey, quick question about the peaceful mod: when you say, "We don't have such a plan at the moment," about adding more Mita's, do you simply mean that you don't know/want, or are you implying that it might eventually be considered?  
+            rawumeerai: huh?  
+            ~~ French Mita ~~: My english is bad sorry xd | But I mean, are you considering adding more mitas to the peaceful mod, | or are you not sure or don’t want to?  
+            rawumeerai: We're considering it
+            
+            !!! The question was whether “no plans for now” was a soft rejection or open-ended. Umeerai confirms: it’s just undecided.`
         },
     
         "12.57": {
-            ru: `Fix in progress`
+            zh: `venomkat: @rawumeerai 你知道 1.5 版本里那个吓人的米塔叫什么吗？短发米塔提到过的那个。 | 现在她好像被叫做类似“米塔-霸凌”之类的东西。
+        rawumeerai: 在游戏里是 “米塔，喜欢欺负和恐吓人” | 这不就是霸凌吗？
+        venomkat: 她被用一个词来概括了 | “霸凌米塔” | 太过了吧？
+        HeadShoot: 她是“欺负和恐吓”。
+        HeadShoot: 那么，“恐吓”是指霸凌，还是只是单纯的吓唬？
+        venomkat: 在英语社区内部的一些重新命名建议： | 恶作剧米塔 | 吓人米塔 | 诡异米塔 | 只是想确认“霸凌”是不是最合适的。
+        rawumeerai: 啊，对，“欺负”，我也忘了。 | 不过她的确只是吓唬，她只是单纯制造一点点恐怖秀而已。
+        HeadShoot: 明白了，谢谢。
+        HeadShoot: 所以 umeerai 的意思是更像是吓人，而不是霸凌？
+        venomkat: 感谢提供背景资料
+    
+        ！！！强调的是“吓唬”，并不是霸凌`,
+            ru: `venomkat: @rawumeerai не шаришь как называется мита которая пугает из версии 1.5 про которую говорит коротковолосая | сейчас ее называют чем-то вроде мита-травля
+        rawumeerai: ну в игре "Мита, которая издевается и запугивает, вроде" | чем не травля
+        venomkat: ее провозгласили одним словом | буллинг мита | имба?
+        HeadShoot: Ну она "забивает и запугивает"
+        HeadShoot: То есть это "запугивать" имеется в виду буллить или всё-таки просто пугать?
+        venomkat: предложенные переименования внутри англосообщества: | мита пранкер | мита пугалище | прущущаяся мита | просто поинтересоваться, подходит ли тут больше травля
+        rawumeerai: аа, "забивает", я тоже забыл. | Ну, пугает именно что пугает, устраивает хоррор шоу чут-чут
+        HeadShoot: Понял, благодарю
+        HeadShoot: So umeerai said its more like scaring, not bullying
+        venomkat: спасибо за контекст`,
+            en: `venomkat: @rawumeerai Do you know what the scary Mita from version 1.5 is called? | The one Short-haired Mita mentioned. | Right now people seem to be calling her something like “Bullying Mita.”  
+        rawumeerai: In-game it’s “Mita who likes to bully and intimidate.” | Isn’t that basically bullying?  
+        venomkat: They’ve boiled it down to one word | “Bullying Mita” | Bit much, isn’t it?  
+        HeadShoot: She’s “bullying and intimidating.”  
+        HeadShoot: So is “intimidating” meant as actual bullying, or just plain scaring?  
+        venomkat: Here are some alternative name suggestions from the English community: | Prank Mita | Scary Mita | Creepy Mita | Just wondering if “Bullying” is really the best fit.  
+        rawumeerai: Ah right, “bully,” I forgot too. | But she really is just scaring, just putting on a little horror show.  
+        HeadShoot: Got it, thanks.  
+        HeadShoot: So umeerai means it’s more like scaring than bullying?  
+        venomkat: Thanks for the context  
+        
+        !!! Umeerai clarifies it’s more about scaring than actual bullying.`
         },
     
         "12.58": {
-            ru: `Fix in progress`
+            zh: `venomkat: @rawumeerai，当我们在传送带游戏中时，和我们说话的是短发米塔吗，还是只是教程？|因为短发米塔说过：“在游戏机里见我。”  
+            rawumeerai: 是的，是她。  
+            
+            ！！！原句“Встретишь меня в игровом автомате.” 应为“你会在游戏机里见到我。” 而非“在游戏机旁”`,
+            ru: `venomkat: @rawumeerai а когда мы в игровом автомате в манекенах с нами говорит коротковолосая или это просто туториал | потому что коротковолосая говорит встреть меня в игровом автомате  
+            rawumeerai: да, она`,
+            en: `venomkat: @rawumeerai When we’re in the arcade machine, is it Short-haired Mita talking to us, or is it just a tutorial? | Because Short-haired Mita says, “Meet me in the arcade machine.”  
+            rawumeerai: Yes, it’s her.  
+
+            !!! The phrase “Встретишь меня в игровом автомате” correctly means “You’ll meet me IN the arcade machine,” not just beside it.`
         },
     
         "12.59": {
