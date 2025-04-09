@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function() {
         - 我们不招聘新成员。谢谢！
         - 游戏会有带新内容的更新。我们现在还不能说会是什么内容。
         - “和平模式”中唯一的主角将是疯狂米塔。
-        - 我们不知道是否会有更新，以及何时会有。
+        - 我们不知道是否会有商品，以及何时会有。
         - 游戏是用 Unity 和 C# 编写的。
         - 色情内容完全不符合我们的游戏定位，因此不会添加。
         - 我们目前没有支持模组或 Steam 创意工坊的计划。
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
         - We are not looking for anyone to join the team. Thank you!
         - Game WILL have updates with new content. We can't say what it will be exactly.
         - Only Crazy Mita will be a main character in the Peaceful Mode.
-        - We don't know if there will be a march or when.
+        - We don't know if there will be a merch or when.
         - Game is made with Unity with C# language usage.
         - Porn content does not fit our game at all, so there won't be.
         - We don't currently have plans for mods or Steam Workshop support.
@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function() {
         - В команду никого не ищем. Спасибо!
         - В игре БУДУТ обновления с новым контентом. Мы не можем сказать, какой он будет.
         - В "Мирном Режиме" главным персонажем будет только Безумная Мита.
-        - Мы не знаем, будет ли марш и когда.
+        - Мы не знаем, будет ли мерч и когда.
         - Игра написана на Unity с использованием языка C#.
         - Порноконтент никак не подходит нашей игре, поэтому его не будет.
         - У нас сейчас нет планов по поддержке модов или Steam Workshop.
