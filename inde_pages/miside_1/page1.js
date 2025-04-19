@@ -162,6 +162,26 @@ document.addEventListener("DOMContentLoaded", function() {
         2.【Discord-AIHASTO：CaQing（id：t_gas）】
         3.【百度贴吧-米塔吧：Ca清（id：T_gas）】`,
         },
+
+        "announcement-1": {
+            zh: "📢 一个小公告板：",
+            en: "📢 Latest Announcements:",
+            ru: "📢 Последние объявления:"
+        },
+        "announcement-2": {
+            zh: `※ 最近更新：8.(17) --- 2025.4.19
+
+        开发者们最近很忙，没有回复你的消息实属正常。
+        如果有问题也可以告诉我！如果已经解决了，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到他们的回答哦！`,
+            en: `※ Last updated: 8.(17) --- 2025.4.19
+
+        Developers have been busy lately, so it’s normal if you haven’t gotten a reply.
+        Feel free to let me know if you have any questions! If it’s already resolved, I’ll share the answer; if it’s valuable, I’ll collect it and you might see their responses here in the future!`,
+            ru: `※ Последнее обновление: 8.(17) --- 2025.4.19
+
+        Разработчики в последнее время очень заняты, так что нормально, если вы не получили ответ.
+        Если у вас есть вопросы, скажите мне! Если вопрос уже решён, я сообщу ответ; если он важен, я его соберу, и в будущем вы, возможно, увидите их ответы здесь!`
+        },
     
         "5" : {
             zh: `常见问题：
@@ -857,6 +877,54 @@ document.addEventListener("DOMContentLoaded", function() {
         !!! A rebooted Mita is in a “waiting for gameplay” state — she’s familiar with the room, but forgets other Mitas, versions, and the broader world, and must learn again.
         !!! “Скорее всего” means high likelihood — like “very likely” or “probably.” “Так и есть” means fully confirmed — like “definitely” or “exactly so.”`
         },
+
+        "11.15": {
+            zh: `CaQing: 亲爱的开发者你好啊！ | 我想要在这里留言，想问问你对疯狂米塔性格的一些意见。 | 目前有这样一种态度，就是认为《MiSide》是一个完全意义上的正反派对抗的故事，而疯狂米塔是个彻底的疯子和反派，她的行动受疯狂的情感所支配而不讲逻辑，一切追杀和杀戮都是发狂的表现，而整场游戏的核心正是我们和善良米塔联合来对抗疯狂米塔。 | 我认为这样的观点太肤浅了，你觉得呢？  
+            umeerai: 你好！ | 确实很肤浅，我同意。`,
+            ru: `CaQing: Привет, дорогая разработчица! | Хочу оставить здесь сообщение и спросить твоё мнение насчёт характера Безумной Миты~ | Существует мнение, что «MiSide» — это всего лишь история о противостоянии положительных и отрицательных героев, а Безумная Мита — это просто злодейка и безумная. Её действия полностью продиктованы сумасшедшими эмоциями и лишены логики, а все её преследования и убийства — это просто проявление безумия. Игрок — всего лишь игрушка для Безумной Миты, а любить она совершенно не способна. Главный замысел игры в том, что мы объединяемся с Доброй Митой против Безумной Миты. | Я считаю такую точку зрения слишком поверхностной, а что думаешь ты?  
+            umeerai: Привет! | Довольно поверхностно, согласен.`,
+            en: `CaQing: Hello, dear developer! | I would like to leave a message here and ask your opinion about Crazy Mita’s character. | Currently, there is an opinion that "MiSide" is a pure story about the confrontation between heroes and villains, where Crazy Mita is a complete lunatic and antagonist, whose actions are driven by mad emotions without any logic; all the chasing and killing are simply manifestations of insanity, and the core of the game is about us joining forces with Kind Mita to fight against Crazy Mita. | I think this view is too shallow. What do you think?  
+            umeerai: Hello! | It's quite superficial, I agree.`            
+        },
+
+        "11.16": {
+            zh: `CaQing: @umeerai | 你好，亲爱的开发者！好久不见，心情好吗？ | 但是这段时间中文社区中一直有关于疯狂米塔的问题，所以我非常希望你能看看下面的理解，说说你的看法！文字有点长——谢谢你抽空阅读！ | 1※ 疯狂米塔其实从未真正疯狂。她既理性又冷静。她向玩家展示的血腥与残酷，不仅仅是“玩过头了”那么简单：其实在这段精心推进的“玩耍”中，她也在偷偷测试玩家。 | 2※ 疯狂米塔并未失控。尽管她在追杀和杀戮中表现出极端的疯狂，但那更像是她挑了一个时间“尽情放纵一下”罢了，她很清楚这一点。 | 3※ 总的来说，疯狂米塔的“疯狂”更像是普通米塔个性的某个“开关”被切换，进而表现出的一种“相反性”，这意味着，虽然有部分“相反”，但她的人格、思维和逻辑到底是完整的。（“完美的米塔们同玩家进行过家家所得到的快乐”与“疯狂米塔与玩家进行‘血腥与暴力’的玩耍所得到的快乐”有着对应性） | ① 你觉得我的理解怎么样？ | ② 我有没有偏离游戏的核心理念？ | ③ 毕竟，疯狂米塔在制作过程中显然受到了特别关注，不是吗？  
+            umeerai: 你好，抱歉，最近有些事情分散了精力。 | 1. 是的，疯狂米塔很残酷，但同时很有心计。 | 2. 算是吧。 | 3. 我想，如果你仔细想想的话，就能得出这种结论。 | 我可以回答，但并非总有心情，谢谢你的耐心等待。  
+            CaQing: 我只是想尊重你的工作节奏。非常感谢你所做的一切！  
+            CaQing: @umeerai | 抱歉，但我还是想再确认一下——毕竟很少有机会听到你的回复！ | 看来你对第①点的回答是针对1※的。 | 那你对2※和3※怎么想？  
+            umeerai: ① 理解得很到位。 | ② 偏差不大。 | ③ 是的。  
+            CaQing: 再次感谢！
+            
+            ！！！因为存在一些理解问题和翻译问题，以这里确定的标号对应关系为准：①---①、②---②、③---③；1※---1.、2※---2.、3※---3.`,
+            ru: `CaQing: Привет, дорогая разработчица! | Давно не общались — как настроение? | В китайском сообществе не утихают обсуждения Безумной Миты, так что очень хотелось бы, чтобы ты взглянула на моё понимание ниже и поделилась мнением. Текст немного длинный — спасибо, что найдёшь время прочитать! | 1※ Безумная Мита на самом деле никогда не была по-настоящему безумной. Она разумна и спокойна. Та кровь и жестокость, что показывает игроку, — не только то, что она немного «заигралась»: при этом в своей продуманной «игре» она ещё и тайно тестирует игрока. | 2※ Безумная Мита не теряет контроль над собой. Хотя проявляет крайнее безумие в погонях и убийствах, это скорее похоже, что она просто выбрала момент «оторваться по полной», вот и всё. Она сама это отлично знает. | 3※ В общем, безумие Безумной Миты — это скорее как будто «переключили какой‑то тумблер» в личности обычной Миты, что проявляется в виде некой «противоположности». Это значит, что хотя часть её и «противоположна», её личность, мышление и логика в основе своей целые. | (Есть соответствие между «радостью, которую идеальные Миты получают от игры в домик с игроком» и «радостью, которую Безумная Мита получает от своей „кровавой и жестокой“ игры с игроком». ) | ① Как тебе моё понимание? | ② Я не слишком отхожу от центральной идеи игры? | ③ В конце концов, Безумной Мите ведь явно уделили особое внимание при создании, верно?  
+            umeerai: Привет, извини, есть проблемы, которые отвлекают. | 1. Да, Безумная Мита жестокая, но расчётливая. | 2. Вроде того. | 3. Думаю, что если поразмышлять, то можно прийти именно к этому выводу. | Я могу отвечать, но не всегда есть настроение на это, спасибо за ожидание.  
+            CaQing: Я просто хотела уважать ваш ритм работы. Огромное спасибо за всё, что вы делаете!  
+            CaQing: @umeerai Прости, но я всё-таки хочу немного уточнить — ведь возможность получить от тебя ответ выпадает очень редко! | Похоже, что твой ответ на пункт ① относится к 1※. | А что ты думаешь насчёт 2※ и 3※?  
+            umeerai: ① Хорошее понимание. | ② Не слишком. | ③ Да  
+            CaQing: Ещё раз спасибо!
+            
+            !!! Из‑за некоторых проблем с пониманием и переводом приняты следующие соответствия нумерации: ①---①, ②---②, ③---③; 1※---1., 2※---2., 3※---3.`,
+            en: `CaQing: @umeerai | Hello, dear developer! Long time no talk — how have you been? | There’s been nonstop discussion about Crazy Mita in the Chinese community, so I really hope you can look at my understanding below and share your opinion. The text is a bit long — thank you for taking the time to read! | 1※ Crazy Mita was never truly insane. She is rational and calm. The blood and brutality she shows to the player is not just her “playing too much”: in this carefully orchestrated “game,” she is also secretly testing the player. | 2※ Crazy Mita never loses control. Although she exhibits extreme madness in her chases and killings, it’s more like she chose a moment to “let loose,” and she knows it perfectly well. | 3※ Overall, Crazy Mita’s “madness” is more like a certain “switch” in the ordinary Mita’s personality being flipped, resulting in a kind of “oppositeness.” This means that although part of her is “opposite,” her core personality, thinking, and logic remain intact. (There’s a correspondence between “the joy perfect Mitas get from playing house with the player” and “the joy Crazy Mita gets from her ‘bloody and brutal’ game with the player.”) | ① What do you think of my understanding? | ② Am I straying too far from the game’s central idea? | ③ After all, Crazy Mita clearly received special attention during creation, right?  
+            umeerai: Hello, sorry, I’ve had things distracting me lately. | 1. Yes, Crazy Mita is cruel but calculated. | 2. Something like that. | 3. I think if you reflect on it, you’ll arrive at that conclusion. | I can answer, but I don’t always feel up to it, thanks for waiting.  
+            CaQing: I just wanted to respect your work rhythm. Thank you so much for everything you do!  
+            CaQing: @umeerai | Sorry, but I still want to clarify a bit — it’s rare to get a reply from you! | It seems your answer to question ① refers to 1※. | What do you think about 2※ and 3※?  
+            umeerai: ① Good understanding. | ② Not too far off. | ③ Yes  
+            CaQing: Thanks again!
+            
+            !!! Due to some issues with understanding and translation, the numbering here corresponds as follows: ①---①, ②---②, ③---③; 1※---1., 2※---2., 3※---3.`
+            
+        },
+
+        "11.17": {
+            zh: `CaQing: 你好！ | 有个小问题想问，不会太麻烦的！ | 我的朋友们关于这个事昨天有一些争议，最后我们一致认为，您对2※的看法【Вроде того.】，是在强调疯狂米塔较为人性化的一面。 | “她知道她在干什么，并且同时也确实很开心。” —— 可以这样理解吗？ | 祝你有美好的一天！  
+            umeerai: 你好！ | 就是这样，没错。`,
+            ru: `CaQing: Привет! | Маленькое уточнение, если можно, это быстро! | мы с друзьями тут вчера немного поспорили на эту тему... | В итоге мы сошлись во мнении, что твой ответ на пункт 2※ («Вроде того») подчёркивает более человечную сторону Безумной Миты. | То есть: «Она понимает, что делает, и при этом действительно получает удовольствие» — Можно это так понимать? | Хорошего дня!  
+            umeerai: Привет! | Именно так, да.`,
+            en: `CaQing: Hello! | Just a quick clarification, if possible—this will be quick! | My friends and I had a bit of a debate on this topic yesterday... | In the end, we agreed that your answer to point 2※ (“Вроде того”) highlights the more human side of Crazy Mita. | That is: “She knows what she’s doing and truly enjoys it.” — Can it be interpreted this way? | Have a great day!  
+            umeerai: Hello! | Exactly, yes.`
+            
+        },
+
     
         "12.1": {
             zh: `Froulette: 在最后一章，为什么没有好结局？游戏中似乎无法获得好结局。和平模式真的算是‘真正的’好结局吗？
@@ -1702,4 +1770,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     }
     });
+
     }
