@@ -722,13 +722,17 @@ document.addEventListener("DOMContentLoaded", function() {
         "11.6" : {
             zh: `kindmita(darkness): 哦，对了，制作人，酷米塔会出现吗？还是说这只是为了丰富米塔游戏的世界观？
         umeerai: 2
-        kindmita(darkness): 谢谢你的回答。`,
+        kindmita(darkness): 谢谢你的回答。
+        
+        ！！！【2】意思是【后者】`,
             ru: `kindmita(darkness): Oh, by the way, producer — will Cool Mita appear? Or is it just to enrich the world of the Mita game?
         umeerai: 2
         kindmita(darkness): Спасибо за ответ.`,
             en: `kindmita(darkness): Oh, by the way, producer — will Cool Mita appear? Or is it just to enrich the world of the Mita game?
         umeerai: 2
-        kindmita(darkness): Thanks for the answer.`
+        kindmita(darkness): Thanks for the answer.
+        
+        !!! "2" --- "latter"`
         },
         
         "11.7" : {
@@ -870,7 +874,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
             en: `CaQing: Hello, dear developer! | Today I have a few questions about the "reboot" mechanic! I hope you can clarify! | 1️⃣ Is rebooting more like wiping memory, but Mita keeps her "core personality" and base game knowledge, right? | 2️⃣ After rebooting, Mita forgets her past social ties in the Mita world, but that doesn’t mean she knows nothing — she’d still find her room and the world familiar, right? | 3️⃣ Rebooting doesn’t reset the inventory, right? The tools or weapons (like a crowbar) in Cap-wearing Mita’s inventory could be leftovers from a plan with Kind Mita before the reboot, right?
         CaQing: Are you there~?
-        umeerai: Hello. | 1. Yes. | 2. The room — yes. But she doesn’t know about the other Mitas. Cap was surprised when she saw Kind Mita. | 3. Most likely, that’s the case.
+        umeerai: Hello. | 1. Yes. | 2. The room — yes. But she doesn’t know about the other Mitas. Cappie was surprised when she saw Kind Mita. | 3. Most likely, that’s the case.
         CaQing: Thanks a lot! | No wonder Kind Mita could still keep the note~
     
         !!! It is now confirmed that the inventory is not reset after reboot.
@@ -1147,7 +1151,7 @@ document.addEventListener("DOMContentLoaded", function() {
         youmэrai: MiSide 还是没被完全理解 | 大家的脑子还没跟上
     
         ！！！图片中的视频《икто не понял Miside》（没人理解Miside），封面的内容在上面的翻译中有，直接搜索就可以在YouTube上找到，视频大致内容讲的是所有米塔其实都串通一气，分成了不同角色其实都是在为了促使玩家进行冒险，最终获得永远不会离开自己的卡带玩家而已，有兴趣可以去看。`,
-            ru: `zigmunt: А кто понял бля (附带一张 "Они ВСЕ против тебя!" 的图片)
+            ru: `zigmunt: А кто понял бля ("Они ВСЕ против тебя!")
         youmэrai: MiSide не допоняли таки | не догнали умы`,
             en: `zigmunt: Who the hell even understood this? (attached image: "They’re ALL against you!")
         youmэrai: <em>MiSide</em> still wasn’t fully understood. | People’s minds just haven’t caught up.
