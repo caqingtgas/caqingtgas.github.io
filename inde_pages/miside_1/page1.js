@@ -164,24 +164,25 @@ document.addEventListener("DOMContentLoaded", function() {
         },
 
         "announcement-1": {
-            zh: "📢 一个小公告板：",
-            en: "📢 Latest Announcements:",
-            ru: "📢 Последние объявления:"
+            "zh": "📢 一个小公告板：",
+            "en": "📢 A Little Announcement Board:",
+            "ru": "📢 Маленькая доска объявлений:"
         },
         "announcement-2": {
-            zh: `※ 最近更新：8.(17) --- 2025.4.19
+            "zh": `※ 最近更新：8.(17) --- 2025.4.19
 
-        开发者们最近很忙，没有回复你的消息实属正常。
-        如果有问题也可以告诉我！如果已经解决了，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到他们的回答哦！`,
-            en: `※ Last updated: 8.(17) --- 2025.4.19
+        开发者们往往很忙，没有回复你的消息实属正常。
+        你可以将问题告诉我！如果是已经解决了的问题，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到它的回答哦！`,
+            "en": `※ Latest update: 8.(17) --- 2025.4.19
 
-        Developers have been busy lately, so it’s normal if you haven’t gotten a reply.
-        Feel free to let me know if you have any questions! If it’s already resolved, I’ll share the answer; if it’s valuable, I’ll collect it and you might see their responses here in the future!`,
-            ru: `※ Последнее обновление: 8.(17) --- 2025.4.19
+        Developers are often very busy, so it's perfectly normal if you didn’t get a reply.
+        Feel free to send your question to me! If it’s something that’s already been answered, I’ll tell you; if it’s valuable, I’ll keep track of it — and maybe one day you’ll see the answer right here!`,
+            "ru": `※ Последнее обновление: 8.(17) --- 2025.4.19
 
-        Разработчики в последнее время очень заняты, так что нормально, если вы не получили ответ.
-        Если у вас есть вопросы, скажите мне! Если вопрос уже решён, я сообщу ответ; если он важен, я его соберу, и в будущем вы, возможно, увидите их ответы здесь!`
+        Разработчики часто бывают очень заняты, так что если вы не получили ответ — это нормально.
+        Вы можете отправить свой вопрос мне! Если на него уже есть ответ — я сообщу его, а если он ценный — я сохраню его, и, возможно, однажды вы увидите ответ прямо здесь!`
         },
+
     
         "5" : {
             zh: `常见问题：
