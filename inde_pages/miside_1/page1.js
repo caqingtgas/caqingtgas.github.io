@@ -164,20 +164,21 @@ document.addEventListener("DOMContentLoaded", function() {
         },
 
         "announcement-1": {
-            "zh": "📢 一个小公告板：",
-            "en": "📢 A Little Announcement Board:",
-            "ru": "📢 Маленькая доска объявлений:"
-        },
-        "announcement-2": {
-            "zh": `※ 最近更新：8.(17) --- 2025.4.19
+            "zh": `📢 一个小公告板：
+
+        ※ 最近更新：8.(18) --- 2025.4.27
 
         开发者们往往很忙，没有回复你的消息实属正常。
         你可以将问题告诉我！如果是已经解决了的问题，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到它的回答哦！`,
-            "en": `※ Latest update: 8.(17) --- 2025.4.19
+            "en": `📢 A Little Announcement Board:
+            
+        ※ Latest update: 8.(18) --- 2025.4.27
 
         Developers are often very busy, so it's perfectly normal if you didn’t get a reply.
         Feel free to send your question to me! If it’s something that’s already been answered, I’ll tell you; if it’s valuable, I’ll keep track of it — and maybe one day you’ll see the answer right here!`,
-            "ru": `※ Последнее обновление: 8.(17) --- 2025.4.19
+            "ru": `📢 Маленькая доска объявлений:
+            
+        ※ Последнее обновление: 8.(18) --- 2025.4.27
 
         Разработчики часто бывают очень заняты, так что если вы не получили ответ — это нормально.
         Вы можете отправить свой вопрос мне! Если на него уже есть ответ — я сообщу его, а если он ценный — я сохраню его, и, возможно, однажды вы увидите ответ прямо здесь!`
@@ -926,8 +927,27 @@ document.addEventListener("DOMContentLoaded", function() {
             ru: `CaQing: Привет! | Маленькое уточнение, если можно, это быстро! | мы с друзьями тут вчера немного поспорили на эту тему... | В итоге мы сошлись во мнении, что твой ответ на пункт 2※ («Вроде того») подчёркивает более человечную сторону Безумной Миты. | То есть: «Она понимает, что делает, и при этом действительно получает удовольствие» — Можно это так понимать? | Хорошего дня!  
             umeerai: Привет! | Именно так, да.`,
             en: `CaQing: Hello! | Just a quick clarification, if possible—this will be quick! | My friends and I had a bit of a debate on this topic yesterday... | In the end, we agreed that your answer to point 2※ (“Вроде того”) highlights the more human side of Crazy Mita. | That is: “She knows what she’s doing and truly enjoys it.” — Can it be interpreted this way? | Have a great day!  
-            umeerai: Hello! | Exactly, yes.`
-            
+            umeerai: Hello! | Exactly, yes.`,
+        },
+
+        "11.18": {
+        zh: `CaQing: 你好，亲爱的开发者！ | 非常希望你能回答下面几个问题！ | ① 游戏内物品（书籍、报纸等）的内容是否具有真实意义？全部是游戏的世界背景吗？或者是半真半玩笑？（例如提到 AI、米塔“大模型”等）？ | ② 如果我没记错，玩家一的现实是否真正存在是个秘密。那是否意味着，既然已经有着多种合理可信的解释，① 中那些文本的真实性就不再那么重要？ | ③ 疯狂米塔本应是 “失败之作”。她产生自我意识是偶然事件，还是被人为赋予？或者疯狂米塔与“失败之作”这一概念之间还有其他根本差异？  
+        CaQing: 嗯……今天心情如何？  
+        umeerai: 你好 | ① 其中既包含游戏背景，也有玩笑成分。 | ② 是的。 | ③ 我认为，原型（疯狂米塔）获得完整智能——是一桩十分惊人的偶然。
+
+        ！！！为什么会有问题二？“玩家一的现实”目前仍然是一个较为模糊的概念，它是否真实存在是个秘密。这个问题的首要目的是为了检测那些内容的重要性——并不高，次要目的是保存meta理论的合理性——完成了。`,
+
+        ru: `CaQing: Привет, дорогая разработчица! | Очень надеюсь, ты сможешь ответить на следующие вопросы! | ① Имеет ли реальное значение содержание внутриигровых предметов (книг, газет и т.п.)? Это всё часть лора игры? Или что-то вроде полушутки-полуправды (например, упоминания ИИ, большой модели Миты)? | ② Если я правильно помню, то, существует ли реальность Игрока 1 на самом деле, — это секрет. Означает ли это, что, раз уж возможны разные правдоподобные объяснения, то подлинность текстов из пункта ① уже не так важна? | ③ Безумная Мита изначально должна была быть «Митой-манекеном». Её самосознание появилось случайно или было дано ей искусственно? Или же между Безумной Митой и концепцией «Миты-манекена» есть и другие фундаментальные различия?  
+        CaQing: Ну… как настроение сегодня?  
+        umeerai: Привет | ① Там есть место и для лора и для шутки. | ② Да. | ③ Полагаю, что появление полноценного интеллекта у манекена (безумной миты) – феноменальная случайность.
+
+        !!! Почему вообще существует вопрос ②? "Реальность Игрока 1" — это до сих пор довольно туманная концепция, её существование остаётся секретом. Главная цель вопроса — проверить важность тех текстов — она невелика; побочная цель — сохранить правдоподобность метатеории — это удалось.`,
+
+        en: `CaQing: Hello, dear developer! | I really hope you can answer the following questions! | ① Do the contents of in-game items (books, newspapers, etc.) have real meaning? Are they entirely part of the game’s lore? Or are they half-serious, half-joking references? (For example, mentions of AI, or Mita's "large model.") | ② If I remember correctly, whether Player 1’s reality actually exists is a secret. Does that mean that, since there are already multiple reasonable explanations, the authenticity of the texts in ① is no longer that important? | ③ Crazy Mita was originally supposed to be “Dummy Mita.” Did her self-awareness arise by accident, or was it artificially given? Or are there other fundamental differences between Crazy Mita and the concept of “Dummy Mita”?  
+        CaQing: Well... how's your mood today?  
+        umeerai: Hello | ① There is room for both lore and jokes. | ② Yes. | ③ I believe the emergence of full intelligence in the prototype (Crazy Mita) is an extraordinary accident.
+
+        !!! Why does question ② exist? The "reality of Player 1" is still a rather vague concept for now, and whether it truly exists is a secret. The primary purpose of this question was to check the importance of those contents — not high; the secondary purpose was to preserve the plausibility of the meta theory — which has been accomplished.`
         },
 
     
