@@ -149,36 +149,36 @@ document.addEventListener("DOMContentLoaded", function() {
             zh: `【Ca清】编辑此页面且保持更新
         如有内容投稿，内容纠错等任何问题，请经过下面的联系方式提交它们！
         1.【T_gas@outlook.com】
-        2.【Discord-AIHASTO：CaQing（id：t_gas）】
+        2.【Discord-MISIDE：CaQing（id：t_gas）】
         3.【百度贴吧-米塔吧：Ca清（id：T_gas）】`,
                 en: `Compiled and maintained by【Ca清】.
         If you'd like to contribute content, report an issue, or have any questions, feel free to contact me using one of the options below:
         1.【T_gas@outlook.com】
-        2.【Discord-AIHASTO：CaQing（id：t_gas）】
+        2.【Discord-MISIDE：CaQing（id：t_gas）】
         3.【百度贴吧-米塔吧：Ca清（id：T_gas）】`,
                 ru: `Страница оформлена и поддерживается【Ca清】.
         Если хотите предложить материалы, сообщить об ошибке или задать вопрос — воспользуйтесь контактами ниже!
         1.【T_gas@outlook.com】
-        2.【Discord-AIHASTO：CaQing（id：t_gas）】
+        2.【Discord-MISIDE：CaQing（id：t_gas）】
         3.【百度贴吧-米塔吧：Ca清（id：T_gas）】`,
         },
 
         "announcement-1": {
             "zh": `📢 一个小公告板：
 
-        ※ 最近更新：8.(18) --- 2025.4.27
+        ※ 最近更新：9.(69) --- 2025.7.18
 
         开发者们往往很忙，没有回复你的消息实属正常。
         你可以将问题告诉我！如果是已经解决了的问题，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到它的回答哦！`,
             "en": `📢 A Little Announcement Board:
             
-        ※ Latest update: 8.(18) --- 2025.4.27
+        ※ Latest update: 9.(69) --- 2025.7.18
 
         Developers are often very busy, so it's perfectly normal if you didn’t get a reply.
         Feel free to send your question to me! If it’s something that’s already been answered, I’ll tell you; if it’s valuable, I’ll keep track of it — and maybe one day you’ll see the answer right here!`,
             "ru": `📢 Маленькая доска объявлений:
             
-        ※ Последнее обновление: 8.(18) --- 2025.4.27
+        ※ Последнее обновление: 9.(69) --- 2025.7.18
 
         Разработчики часто бывают очень заняты, так что если вы не получили ответ — это нормально.
         Вы можете отправить свой вопрос мне! Если на него уже есть ответ — я сообщу его, а если он ценный — я сохраню его, и, возможно, однажды вы увидите ответ прямо здесь!`
@@ -1741,8 +1741,81 @@ document.addEventListener("DOMContentLoaded", function() {
         umeerai: я прост нафристайлили, вообще планировали менять, но ниче не успели`,
             en: `Jinsine: @umeerai, oh, taking this opportunity, I still want to ask, who designed the ring that allows moving through versions? Because while I was working on it, everyone kept asking me why there’s an F-shaped cut, does it have any special meaning?  
         umeerai: I just freestyle-drew it, we actually planned to change it, but didn’t manage to in time. `
-        }
+        },
     
+        "12.62": {
+            zh: `Кактус.Al: 你们是怎么想到要和《战舰世界》搞联动的？
+        umeerai: 他们提议，我们同意。`,
+            ru: `Кактус.Al: Как вы дошли до того чтобы сделать колабу с миром кораблей?
+        meerai: предложили, согласились`,
+            en: `Кактус.Al: How did you come up with doing a collab with World of Warships?
+        umeerai: They proposed it, we agreed.`
+        },
+
+        "12.63": {
+            zh: `ABrony.wav: 这是谁提出的想法？当然如果不是秘密的话。
+        umeerai: 我做梦都想让我的游戏出现在最棒的现代战舰游戏里。`,
+            ru: `ABrony.wav: а чья инициатива то была, кстати, если не секрет?
+        umeerai: я спал и видел, как моя игра засветится в лучшей игре современности о боевых кораблях`,
+            en: `ABrony.wav: Whose idea was it, by the way—if it’s not a secret?
+        umeerai: I dreamed of my game being featured in the best modern warship game.`
+        },
+
+        "12.64": {
+            zh: `Роман4ик: 社区里的有些人真是吐槽怪，我都惊了。漫画？不喜欢。搞联动？也不要。这单子能一直列下去）
+        umeerai: 嗯，这也没什么大不了的，而且我们没花自己的时间，我们已经开始做和平模式了。`,
+            ru: `Роман4ик: Какие ж нытики в комьюнити, я фигею. Манга? Не нравится. Коллаба? Неа. Продолжать можно вечно)
+        umeerai: Ну, просто ничего страшного, мы же личное время не тратим, мы мирный режим делать начали`,
+            en: `Роман4ик: Such whiners in the community, I can't even. A manga? They don't like it. A collab? Nope. The list goes on and on)
+        umeerai: Well, it's no big deal. We're not spending our personal time on it, after all; we've started working on peaceful mode.`
+        },
+
+        "12.65": {
+            zh: `_Sin_dzi_: 和平模式里会有钓鱼和健身房吗？
+        umeerai: 我会试着推进钓鱼功能。`,
+            ru: `_Sin_dzi_: А в мирном режиме будет рыбалка и зал?
+        umeerai: я постараюсь протопить рыбалку`,
+            en: `_Sin_dzi_: Will there be fishing and a gym in peaceful mode?
+        umeerai: I’ll try to push for fishing.`
+        },
+
+        "12.66": {
+            zh: `Xeliko: 和平模式有剧情吗，还是说这是一款没有结局的游戏？
+        umeerai: 有的。`,
+            ru: `Xeliko: у мирного режима есть сюжет или это игра без концовки?
+        umeerai: есть`,
+            en: `Xeliko: Does peaceful mode have a story, or is it an endless game?
+        umeerai: It has one.`
+        },
+
+        "12.67": {
+            zh: `Печенька Дью: 会有《战地》和 MiSide 的联动吗？
+        umeerai: 《战地》不火了。`,
+            ru: `Печенька Дью: @umeerai будет коллаба battlefield и miside?
+        umeerai: батла не хайп`,
+            en: `Pechyenka Dew: Will there be a Battlefield and MiSide collab?
+        umeerai: Battlefield isn’t hype anymore.`
+        },
+
+        "12.68": {
+            zh: `ach: 开发组这是走歪了吧——又是宣布什么莫名其妙的漫画（干嘛？），现在还和《战舰世界》联动（啥玩意儿）。我理解你们需要钱，但不如专注做更新和新项目，不是更好吗？
+        umeerai: 你觉得会是我们亲自去做战舰那边的内容，还亲自画漫画吗？`,
+            ru: `ach: Чёт разрабов не туда занесло – то непонятную мангу анонсировали (зачем?), сейчас коллабу с миром кораблей (лол что) сделали. Я понимаю, что нужны деньги, но не лучше заняться апдейтами и новыми проектами, не?
+        umeerai: ты считаешь, что мы лично для кораблей делаем что-то и мангу сами рисуем?`,
+            en: `ach: Devs are kind of off-track—first they announced some weird manga (why?), now they’re doing a collab with World of Warships (lol what). I get that you need money, but wouldn’t focusing on updates and new projects be better?
+        umeerai: You think we’re making stuff for the ships ourselves and drawing the manga too?`
+        },
+
+        "12.69": {
+            zh: `Nabe: 嘿，可以加快开发进度吗？我等不及想玩新版本了！
+        umeerai: 我们按照自己的节奏来 | 我们会尽力做的，抱歉啦。但我一定会提醒大家，你们不会错过更新的。`,
+            ru: `Nabe: @umeerai hey can you rush the progress? Can’t wait to play the new update
+        umeerai: we work at our own pace | We do the best we can, sorry. But I will definitely make everyone ping, you won't miss it`,
+            en: `Nabe: @umeerai hey can you rush the progress? Can’t wait to play the new update
+        umeerai: we work at our own pace | We do the best we can, sorry. But I will definitely make everyone ping, you won't miss it`,
+        }
+
+
     }
 
     
