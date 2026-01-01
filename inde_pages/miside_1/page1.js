@@ -166,19 +166,19 @@ document.addEventListener("DOMContentLoaded", function() {
         "announcement-1": {
             "zh": `📢 一个小公告板：
 
-        ※ 最近更新：9.(69) --- 2025.7.18
+        ※ 最近更新：3.(2) --- 2025.12.31
 
         开发者们往往很忙，没有回复你的消息实属正常。
         你可以将问题告诉我！如果是已经解决了的问题，我会告诉你答案，如果是有价值的问题，我会收集起来，日后你或许可以在这里看到它的回答哦！`,
             "en": `📢 A Little Announcement Board:
             
-        ※ Latest update: 9.(69) --- 2025.7.18
+        ※ Latest update: 3.(2) --- 2025.12.31
 
         Developers are often very busy, so it's perfectly normal if you didn’t get a reply.
         Feel free to send your question to me! If it’s something that’s already been answered, I’ll tell you; if it’s valuable, I’ll keep track of it — and maybe one day you’ll see the answer right here!`,
             "ru": `📢 Маленькая доска объявлений:
             
-        ※ Последнее обновление: 9.(69) --- 2025.7.18
+        ※ Последнее обновление: 3.(2) --- 2025.12.31
 
         Разработчики часто бывают очень заняты, так что если вы не получили ответ — это нормально.
         Вы можете отправить свой вопрос мне! Если на него уже есть ответ — я сообщу его, а если он ценный — я сохраню его, и, возможно, однажды вы увидите ответ прямо здесь!`
@@ -504,6 +504,82 @@ document.addEventListener("DOMContentLoaded", function() {
         30. Q: What does "MiSide" mean?  
         A: "Mita's Side"`
         },
+
+        "6.1" : {
+            zh: `各位玩家，你们好！
+
+                是我们，AIHASTO——如果你还记得我们的话。我们想在此分享一些关于 MiSide 的感想，当然也提前祝你新年快乐！🎄 🎉 🎁铃儿响叮当，圣诞快乐，还有..."新年正朝我们飞奔而来"——总之都是美好的祝福。愿新的一年为我们所有人带来幸福、深厚的友谊、爱情，当然还有成功。我们衷心祝愿每个人都能拥有这一切！所以…现在进入正题…「和平模式」！唉，该怎么说呢——2025 年对我们而言是艰难的一年（想必对各位也是如此）。很长一段时间里，我们就是提不起劲回归 MiSide。甚至发展到产生真实的焦虑和严重的自我怀疑。雪上加霜的是，许多前所未有的新难题和责任也接踵而至。
+
+                说实话，除了在游戏开发之外的各种事情上耗费了大量时间之外，倒也没发生什么糟糕的情况。
+
+                但是！这并不意味着我们放弃了游戏或其他类似的情况。实际上，我们趁机稍作休整，现在正重新投入游戏的开发工作。需要说明的是：我们从未设定过任何官方截止日期（即便团队成员曾提及时间安排，也仅是即兴的初步设想）。正式发布日期迟早会公布——但目前尚未确定。
+
+                关于这个话题，我们唯一能说的是：「和平模式」、结局和其他很酷的内容——它们正在路上！但不会很快到来。在接下来的一年里，待开发工作取得更多进展后，我们将能更准确地评估后续工作量，届时会为大家提供更明确的新内容发布时间预期。我们想要创作出既有趣又丰富的内容，这需要时间。毕竟您必须承认：当屏幕上的每个像素都由仅有的两个人绘制并赋予生命时，想要快速完成且效果惊人几乎是不可能的。但我们毫无怨言——完全没有。MiSide 是一个现象级作品，也是我们实实在在的成功。亲爱的玩家们，没有你们这一切都不可能实现！感谢你们——再次祝大家节日快乐！请多保重，享受这段特别的时光。我们要向我们的发行商 IndieArk 致以特别的谢意——非常感谢那里支持我们、辛勤工作且出色的团队成员。也祝你们节日快乐！特别感谢我们的朋友 Rooar Studio 和 Terletski Comics 将如此精彩的周边产品变为现实——这是我们过去想都不敢想的。祝大家节日快乐！我们也想就粉丝创作内容说几句。亲爱的粉丝们，AIHASTO 仅与一年多前在 Steam 上发布的《MiSide》电子游戏有官方关联。其他所有内容——例如 Zero 及类似项目——均属于非官方的粉丝创作内容。我们的任何官方公告只会出现在官方渠道：Discord、VK、Steam 或 X 平台。`,
+            ru: `Привет, Игроки! Это мы, AIHASTO, если еще помните. Пришли немножко прокомментировать, что с Мисайдом и, конечно же, поздравить вас с наступающим новым годом! 🎄 🎁 🎉 
+
+                Джингл беллс, мэрри кристмасы там и... "новый год к нам мчится" и все в этом духе. Пусть следующий год принесет нам всем счастье, большую дружбу и любовь. Ну и успех, до кучи. Желаем это всем нам!  
+
+                Так... теперь к главному... "Мирный режим"  ! Ну что тут сказать, 2025 год выдался для нас (да и, думаем, для вас тоже) трудным. Долгое время совершенно не было желания возвращаться к Мисайду. Вплоть до нервяков и серьезных сомнений. К тому же добавилось много других проблем и обязанностей, с которыми мы никогда не сталкивались. 
+                Честно говоря, ничего страшного не случилось, кроме того, что была потрачена уйма времени на что угодно, кроме разработки игры.  
+
+                НО!  это не значит, что мы забросили игру или что-то такое. Как раз-таки мы успели немножко передохнуть и теперь вновь начинаем работу над ней. 
+                Хочу четко обозначить, что мы никаких временных рамок никогда не объявляли (а даже если кто-то из нас где-то рассуждал на эту тему - то делал это навскидку и условно)! Дата релиза рано или поздно появится, но пока ее НЕТ.  
+
+                Единственное, что можем сказать по этому поводу: "мирный режим", концовки и прочие приколы - будут! Но не скоро.  
+
+                В предстоящем году, полагаем, что мы сможем сказать, когда стоит ожидать контент по Мисайд. Когда продвинемся дальше по разработке и здраво оценим объем дальнейшей работы. Мы хотим сделать что-то интересное и насыщенное, а на это нужно время. Ведь согласитесь, что, все-таки, когда каждый пиксель на экране рисуется и оживляется руками всего двух людей, шансов - что будет быстро и круто - никаких. Но мы не жалуемся, ни в коем случае.  
+
+                Мисайд для нас это феномен и настоящий успех, и без вас, ДОРОГИЕ ИГРОКИ, этого бы не было! Спасибо и еще раз с наступающим праздником, отдохните хорошо в эти дни.  
+
+                Особую благодарность хотим выразить нашему издателю IndieArk - нам очень помогают отзывчивые, трудолюбивые и замечательные люди, с праздником вас! 
+                Отдельную благодарность выражаю нашим друзьям Rooar Studio и Терлецки Комикс за то, что реализовали замечательный мерч, мы раньше о таком только могли мечтать. Хороших праздников!  
+
+                Хотелось бы еще отдельно сказать про фанатские работы. Дорогие(!), мы, AIHASTO, имеем отношение только к видеоигре MiSide, которая вышла больше года назад на платформе Steam. Все остальное это неофициальное, фанатское творчество (типа Zero и др.). 
+
+                Какие-либо анонсы по нашему творчеству могут быть только на официальных ресурсах Дискорда, ВК, Steam, или на платформе X. 
+
+                Информация по мерчу для игроков из России: планируется запуск сайта на российском домене, чтобы не было проблем с заходом на сайт и оформлением заказа, ожидайте новости в январе-феврале 2026 года.
+
+                В дальнейшем, мы постараемся чаще комментировать происходящее. Извиняемся за молчание, спасибо за ожидание!  
+
+                На этом у нас все, с новым годом! Спасибо за поддержку! Счастья всем! И еще, никогда не сдавайтесь! `,
+    
+            en: `Hello, Players! 
+
+                It’s us, AIHASTO — if you still remember us. We’re here to share a few thoughts about MiSide and, of course, to wish you a happy upcoming New Year! 🎄 🎉 🎁 
+
+                Jingle bells, Merry Christmas, and… «the New Year is rushing toward us» — and all that good stuff. May the coming year bring all of us happiness, deep friendships, love, and, of course, success too. We wish all this for each and every one of us!
+
+                So… now to the main point… «Peaceful Mode»! Well, what can we say — 2025 has been a tough year for us (and, we imagine, for you too). For a long time, we just didn’t feel like returning to MiSide. It got to the point of real stress and serious doubts. On top of that, many new problems and responsibilities arose — things we’d never dealt with before.
+
+                Honestly, nothing terrible happened — except that we spent a ton of time on everything but game development.
+
+                BUT!  This doesn’t mean we’ve abandoned the game or anything like that. In fact, we’ve managed to take a little break and are now getting back to work on it.
+
+                I want to make this clear: we’ve never set any official deadlines (and even if any of us ever talked about timelines, it was just off the cuff and purely tentative). A release date will appear sooner or later — but right now, it’s not set. 
+
+                The only thing we can say on this topic is: «Peaceful Mode», endings, and other cool stuff — they’re coming! But not soon. 
+
+                In the coming year, we expect to be able to give you a better idea of when to expect new MiSide content — once we’ve made more progress in development and can realistically assess the scope of the work ahead. 
+
+                We want to create something interesting and rich, and that takes time. After all, you have to agree: when every single pixel on screen is drawn and brought to life by just two people, there’s no chance it’ll be quick and amazing. But we’re not complaining — not at all. 
+
+                MiSide is a phenomenon and a real success for us, and none of this would have been possible without you, DEAR PLAYERS! Thank you — and once again, happy holidays! Take good care of yourselves and enjoy this special time.
+
+                We’d like to extend special thanks to our publisher, IndieArk — we’re so grateful for the supportive, hardworking, and wonderful people there. Happy holidays to you too!
+
+                A separate thank-you goes to our friends Rooar Studio and Terletski Comics for bringing such amazing merchandise to life — this is something we could only dream of before. Wishing you all a wonderful holiday season!
+
+                We’d also like to say a few words about fan-made content. Dear fans, AIHASTO is only officially associated with the MiSide video game, which launched over a year ago on Steam. Everything else — such as Zero and similar projects — is unofficial, fan-made content. 
+
+                Any official announcements from us will only appear on our official channels: Discord, VK, Steam, or X.
+
+                In the future, we’ll try to keep you more updated on what’s going on. We apologize for the silence — and thank you for your patience!
+
+                That’s all from us. Happy New Year! Thank you for your support! Wishing everyone happiness! And remember: never give up! `
+        },
+
+
         "7" : {
             zh: `Umeerai: 
         走廊里的蜘蛛象征着在版本间蔓延的游戏bug。丑陋米塔（怪物米塔）则是来自一个非常老旧、bug非常多的游戏版本，不断滋养着这些蜘蛛。我们对这个想法非常感兴趣，无法舍弃。至于丑陋米塔（怪物米塔）以及蜘蛛的形象设计，我（umeerai）参考了恐怖谷效应和一些恐怖电影。比如丑陋米塔（怪物米塔）的脸被有意设计成更像现实里会出现的动漫面具，而不是常规的动画面具。
